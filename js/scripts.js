@@ -29,6 +29,9 @@ $(document).ready(function() {
       $(".quiz").show();
       $("#python").show();
     }
-
+  });
+  $("#clear").click(function() {
+    $("#quiz").trigger("reset");
+    $(".results").hide();
   });
 });
