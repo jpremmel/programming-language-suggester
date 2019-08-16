@@ -25,6 +25,9 @@ $(document).ready(function() {
     } else if (q5 === "yes") {
       $(".quiz").show();
       $("#ruby").show();
+    } else {
+      $(".quiz").show();
+      $("#python").show();
     }
 
   });
