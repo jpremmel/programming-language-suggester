@@ -2,6 +2,8 @@ $(document).ready(function() {
   $("#quiz").submit(function(event) {
     event.preventDefault();
     $(".results").hide();
+    var name=$("input#name").val();
+    console.log(name);
     var q1=$("input:radio[name=q1]:checked").val();
     var q2=$("input:radio[name=q2]:checked").val();
     var q3=$("input:radio[name=q3]:checked").val();
