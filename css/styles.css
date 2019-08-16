@@ -20,6 +20,10 @@
   border-width: medium;
 }
 
+.important {
+  font-weight: bold;
+}
+
 .btn {
   margin-top: 15px;
   margin-left: 25px;
