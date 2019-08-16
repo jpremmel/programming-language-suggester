@@ -10,10 +10,10 @@ $(document).ready(function() {
 
     if (!q1 || !q2 || !q3 || !q4 || !q5) {
       alert("Please answer all of the questions.");
-    } else if (q1 === "yes") {
+    } else if (q1 === "yes" && q3 != "yes" && q5 != "yes") {
       $(".quiz").show();
       $("#js").show();
-    } else if (q2 === "yes") {
+    } else if (q2 === "yes" && q4 != "yes") {
       $(".quiz").show();
       $("#python").show();
     } else if (q3 === "yes") {
