@@ -10,103 +10,113 @@
   <body>
     <div class="container">
       <h1>Programming Language Suggester</h1>
-      <ol>
-        <li>Are you into style and design?</li>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q1" value="yes">
-            Yes
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q1" value="maybe">
-            Maybe
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q1" value="no">
-            No
-          </label>
-        </div>
-        <li>Are you a researcher or someone who works with a lot of data?</li>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q2" value="yes">
-            Yes
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q2" value="maybe">
-            Maybe
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q2" value="no">
-            No
-          </label>
-        </div>
-        <li>Do you love Apple products?</li>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q3" value="yes">
-            Yes
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q3" value="maybe">
-            Maybe
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q3" value="no">
-            No
-          </label>
-        </div>
-        <li>Are you interested in working for a large enterprise such as a bank, hospital, or university?</li>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q4" value="yes">
-            Yes
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q4" value="maybe">
-            Maybe
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q4" value="no">
-            No
-          </label>
-        </div>
-        <li>Do you have lots of ideas that you want to turn into working applications?</li>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q5" value="yes">
-            Yes
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q5" value="maybe">
-            Maybe
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="q5" value="no">
-            No
-          </label>
-        </div>
-      </ol>
+      <p class="quiz">Having trouble deciding what programming language to learn? Take this quiz to get a suggestion!</p>
+      <form id="quiz">
+        <ol>
+          <li>Are you into style and design?</li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q1" value="yes">
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q1" value="maybe">
+              Maybe
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q1" value="no">
+              No
+            </label>
+          </div>
+          <li>Are you a researcher or someone who works with a lot of data?</li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q2" value="yes">
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q2" value="maybe">
+              Maybe
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q2" value="no">
+              No
+            </label>
+          </div>
+          <li>Do you love Apple products?</li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q3" value="yes">
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q3" value="maybe">
+              Maybe
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q3" value="no">
+              No
+            </label>
+          </div>
+          <li>Are you interested in working for a large enterprise such as a bank, hospital, or university?</li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q4" value="yes">
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q4" value="maybe">
+              Maybe
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q4" value="no">
+              No
+            </label>
+          </div>
+          <li>Do you have lots of ideas that you want to turn into working applications?</li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q5" value="yes">
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q5" value="maybe">
+              Maybe
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q5" value="no">
+              No
+            </label>
+          </div>
+        </ol>
+        <button type="submit" class="btn">Help Me Decide!</button>
+      </form>
+      <p class="quiz results">Based on your quiz responses, you should learn...</p>
+      <p class="results">JavaScript!</p>
+      <p class="results">Java!</p>
+      <p class="results">Swift!</p>
+      <p class="results">Python!</p>
+      <p class="results">Ruby!</p>
     </div>
   </body>
 </html>
