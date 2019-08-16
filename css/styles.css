@@ -6,10 +6,16 @@
 
 .panel {
   padding: 15px;
+  border-color: grey;
+  border-width: medium;
 }
 
 .btn {
+  display: inline-block;
+  text-align: center;
   margin: 10px;
+  border-color: grey;
+  border-width: medium;
 }
 
 .quiz {
