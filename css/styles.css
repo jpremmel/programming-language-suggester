@@ -10,14 +10,19 @@
   border-width: medium;
 }
 
+.form-group {
+  margin-left: 25px;
+}
+
 #name {
   width: 500px;
+  border-color: grey;
+  border-width: medium;
 }
 
 .btn {
-  display: inline-block;
-  text-align: center;
-  margin: 10px;
+  margin-top: 15px;
+  margin-left: 25px;
   border-color: grey;
   border-width: medium;
 }
