@@ -1,11 +1,25 @@
+
+h1 {
+  text-align: center;
+}
+
+.panel {
+  padding: 15px;
+}
+
+.btn {
+  margin: 10px;
+}
+
 .quiz {
  font-style: italic;
+ text-align: center;
 }
 
 .results {
   display: none;
 }
 
-.btn {
-  margin: 10px;
+.language {
+  display: none;
 }

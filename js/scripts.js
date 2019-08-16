@@ -2,6 +2,7 @@ $(document).ready(function() {
   $("#quiz").submit(function(event) {
     event.preventDefault();
     $(".results").hide();
+    $(".language").hide();
     var q1=$("input:radio[name=q1]:checked").val();
     var q2=$("input:radio[name=q2]:checked").val();
     var q3=$("input:radio[name=q3]:checked").val();
@@ -11,27 +12,28 @@ $(document).ready(function() {
     if (!q1 || !q2 || !q3 || !q4 || !q5) {
       alert("Please answer all of the questions.");
     } else if (q1 === "yes" && q3 != "yes" && q5 != "yes") {
-      $(".quiz").show();
+      $(".results").show();
       $("#js").show();
     } else if (q2 === "yes" && q4 != "yes") {
-      $(".quiz").show();
+      $(".results").show();
       $("#python").show();
     } else if (q3 === "yes") {
-      $(".quiz").show();
+      $(".results").show();
       $("#swift").show();
     } else if (q4 === "yes") {
-      $(".quiz").show();
+      $(".results").show();
       $("#java").show();
     } else if (q5 === "yes") {
-      $(".quiz").show();
+      $(".results").show();
       $("#ruby").show();
     } else {
-      $(".quiz").show();
+      $(".results").show();
       $("#python").show();
     }
   });
   $("#clear").click(function() {
     $("#quiz").trigger("reset");
     $(".results").hide();
+    $(".language").hide();
   });
 });
