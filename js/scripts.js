@@ -23,7 +23,7 @@ $(document).ready(function() {
     } else {
       $("#python").show();
     }
-    $("#output").text(name);
+    $(".output").text(name);
   });
   $("#clear").click(function() {
     $("#quiz").trigger("reset");
